@@ -1,0 +1,31 @@
+{
+  "description": "Capture 8x assignment prompts and final responses.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .codex/hooks/capture_agent_turn.py",
+            "commandWindows": "python .codex/hooks/capture_agent_turn.py",
+            "timeout": 10,
+            "statusMessage": "Capturing prompt"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .codex/hooks/capture_agent_turn.py",
+            "commandWindows": "python .codex/hooks/capture_agent_turn.py",
+            "timeout": 10,
+            "statusMessage": "Capturing final response"
+          }
+        ]
+      }
+    ]
+  }
+}
