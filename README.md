@@ -70,6 +70,12 @@ bottom navigation, and horizontal overflow.
 
 ## Deployment
 
-Deploy with Vercel from the repository root. No secrets or environment variables are
-required for this demo.
+Public production deployment:
+
+- https://framefield-8x-studio.mhuzaifaawan7.chatgpt.site
+
+The assignment permits Vercel or another appropriate public host. The connected Sites
+host was used because Vercel was not connected in this environment. The production URL
+was verified from a fresh unauthenticated browser and returned HTTP 200. No secrets or
+environment variables are required for this demo.
 
