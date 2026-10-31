@@ -1,6 +1,7 @@
 # Framefield walkthrough recording script
 
-Target length: **4 minutes 30 seconds to 5 minutes**  
+Target length: **4 minutes 30 seconds to 5 minutes**
+
 Recording requirements: **camera on, microphone on, and screen shared**
 
 ## Before recording
